@@ -10,16 +10,21 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/materialize.css" media="screen">
-    <!--<link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css" media="screen">-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css" media="screen">
     <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-  
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+      $(function(){
+      $("#header").load("header.html"); 
+    });
+    </script>
   </head>
   
   <body>
     
     <div id="header"></div>
     
-    <a class="twitter-timeline"  href="https://twitter.com/auviitb" data-widget-id="732941028412395520" data-tweet-limit="3" width="250px" data-height="100px">News Feed</a>
+    <a class="twitter-timeline"  href="https://twitter.com/auviitb" data-widget-id="732941028412395520" data-tweet-limit="4" width="250px" data-height="100px">News Feed</a>
     
     <div class="slider center">
       <ul class="slides container right">
