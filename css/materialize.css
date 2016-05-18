@@ -4176,7 +4176,7 @@ nav ul {
 nav ul li {
   transition: background-color .3s;
   float: left;
-  padding: 0;
+  padding: 10px;
 }
 
 nav ul li.active {
