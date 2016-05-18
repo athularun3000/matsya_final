@@ -8182,7 +8182,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   }
 }
 
-.navbar-fixed li{
-  display: inline;
-  margin: 50px;
+.nav-wrapper li{
+  margin: 0 100px 0 0;
 }
