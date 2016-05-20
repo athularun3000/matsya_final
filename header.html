@@ -35,11 +35,11 @@ window.onload ="setActive()";
     </script>-->
     <script>
       $(function(){
-        $('.nav-wrapper ul li').click(function(event)
+        $('.nav-wrapper ul li a').click(function(event)
         {
           $('.active').removeClass('active');
           $(this).addClass('active');
-        
+          event.preventDefault();
         });
       });
     </script>
