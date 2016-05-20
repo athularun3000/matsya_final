@@ -16,7 +16,7 @@
     <script>
       $(function() {
            var pagegurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
-           $("#nav ul li a").each(function(){
+           $(".right hide-on-med-and-down").each(function(){
                 if($(this).attr("href") == pagegurl)
                 $(this).addClass("active");
      });
