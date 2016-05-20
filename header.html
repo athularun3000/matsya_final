@@ -11,7 +11,17 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/materialize.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/materialize.min.css" media="screen">
-  
+    
+    <script src=""></script></script>
+    <script>
+      $(function() {
+           var pagegurl = window.location.href.substr(window.location.href.lastIndexOf("/")+1);
+           $("#nav ul li a").each(function(){
+                if($(this).attr("href") == pagegurl)
+                $(this).addClass("active");
+     });
+    });
+    </script>
   </head>
   
   <body>
@@ -21,12 +31,12 @@
               <img src="logo.png" alt="IITB" style="height:64px;width:70px" class="col sm-4 #ffffff white">
               <a href="index.html" class="brand-logo"><img src="AUV-logo-new.png" style="width:250px;height:64px"></a>
               <ul class="right hide-on-med-and-down">
-              <li id="nav-1"> <div class="col sm-4"><a href="about_us.html">About Us</a></div></li>
-              <li id="nav-2"><div class="col sm-4"><a href="sub_divisions.html">SubDivisions</a></div></li>
-              <li id="nav-3"><div class="col sm-4"><a href="Vehicles.html">Vehicles</a></div></li>
-              <li id="nav-4"><div class="col sm-4"><a href="#">Our Advisors</a></div></li>
-              <li id="nav-5"><div class="col sm-4"><a href="#">Partners</a></div></li>
-              <li id="nav-6"><div class="col sm-4"><a href="#">Blog</a></div></li>
+              <li> <div class="col sm-4"><a href="about_us.html">About Us</a></div></li>
+              <li><div class="col sm-4"><a href="sub_divisions.html">SubDivisions</a></div></li>
+              <li><div class="col sm-4"><a href="Vehicles.html">Vehicles</a></div></li>
+              <li><div class="col sm-4"><a href="#">Our Advisors</a></div></li>
+              <li><div class="col sm-4"><a href="#">Partners</a></div></li>
+              <li ><div class="col sm-4"><a href="#">Blog</a></div></li>
             </ul>
             
         </div>
