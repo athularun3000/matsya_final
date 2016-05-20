@@ -33,7 +33,19 @@
 }
 window.onload ="setActive()";
     </script>-->
+    <script>
+    $(function () {
+    $('.nav-wrapper li a').click(function(event) {
 
+        $('.nav-wrapper li').removeClass('active');
+
+        var $parent = $(this).parent();
+        if (!$parent.hasClass('active')) {
+            $parent.addClass('active');
+        }
+        event.preventDefault();
+    });
+});
   
   </head>
   
