@@ -22,7 +22,7 @@
      });
     });
     </script>-->
-   <!-- <script>
+    <script>
       function setActive() {
       aObj = document.getElementById('nav1').getElementsByTagName('a');
       for(i=0;i<aObj.length;i++) { 
@@ -32,27 +32,14 @@
   }
 }
 window.onload ="setActive()";
-    </script>-->
-    <script>
-    $(function () {
-    $('.nav-wrapper li a').click(function(event) {
+    </script>
 
-        $('.nav-wrapper li').removeClass('active');
-
-        var $parent = $(this).parent();
-        if (!$parent.hasClass('active')) {
-            $parent.addClass('active');
-        }
-        event.preventDefault();
-      });
-    });
-  </script>
   </head>
   
   <body>
       <div class="navbar-fixed">
         <nav>
-           <div class="nav-wrapper blue lighten-1">
+           <div class="nav-wrapper blue lighten-1" id="nav1">
               <img src="logo.png" alt="IITB" style="height:64px;width:70px" class="col sm-4 #ffffff white">
               <a href="index.html" class="brand-logo"><img src="AUV-logo-new.png" style="width:250px;height:64px"></a>
               <ul class="right hide-on-med-and-down">
