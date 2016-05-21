@@ -20,7 +20,7 @@
     </script>
     <script>
     $(function(){
-      $('.modal-trigger-1').leanModal();
+      $('.modal-trigger').leanModal();
     });
     </script>
  </head>
@@ -51,7 +51,7 @@
   <!--subdivion wise-->
   <!--mech row 1-->
   <div class="row" id="card">
-    <h4 style="color:blue"> Mechanical division</h4>
+    <div> <h4 style="color:blue"> Mechanical division</h4></div>
       <div class="col s12 m6" >
         <div class="card grey lighten-4 black-text">
             <div class="row valign-wrapper">
@@ -96,6 +96,19 @@
    </div>
    
    <!--mech row 2-->
-   
+  
+   <!-- Modal Trigger -->
+  <a class="modal-trigger waves-effect waves-light btn" href="#modal1">Modal</a>
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <p>A bunch of text</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+    </div>
+  </div> 
   </body>
 </html>
