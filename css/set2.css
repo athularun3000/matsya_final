@@ -14,9 +14,9 @@
 	float: left;
 	overflow: hidden;
 	margin: 10px 1%;
-	min-width: 320px;
-	max-width: 480px;
-	max-height: 360px;
+	min-width: 160px;
+	max-width: 240px;
+	max-height: 180px;
 	width: 48%;
 	height: auto;
 	background: #3085a3;
@@ -96,7 +96,7 @@ figure.effect-julia {
 
 figure.effect-julia img {
 	max-width: none;
-	height: 400px;
+	height: 200px;
 	-webkit-transition: opacity 1s, -webkit-transform 1s;
 	transition: opacity 1s, transform 1s;
 	-webkit-backface-visibility: hidden;
