@@ -119,12 +119,12 @@ figure.effect-julia p {
 	background: rgba(255,255,255,0.9);
 	color: #2f3238;
 	text-transform: none;
-	font-weight: 500;
+	font-weight: 350;
 	font-size: 75%;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
-	-webkit-transform: translate3d(-180px,0,0);
-	transform: translate3d(-180px,0,0);
+	-webkit-transform: translate3d(-300px,0,0);
+	transform: translate3d(-300px,0,0);
 }
 
 figure.effect-julia p:first-child {
