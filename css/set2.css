@@ -65,16 +65,16 @@
 	opacity: 0;
 }
 
-.grid figure h2 {
+.grid figure h4 {
 	word-spacing: -0.15em;
 	font-weight: 300;
 }
 
-.grid figure h2 span {
+.grid figure h4 span {
 	font-weight: 800;
 }
 
-.grid figure h2,
+.grid figure h4,
 .grid figure p {
 	margin: 0;
 }
@@ -107,7 +107,7 @@ figure.effect-julia figcaption {
 	text-align: left;
 }
 
-figure.effect-julia h2 {
+figure.effect-julia h4 {
 	position: relative;
 	padding: 0.25em 0;
 }
