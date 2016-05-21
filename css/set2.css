@@ -97,8 +97,8 @@ figure.effect-julia {
 figure.effect-julia img {
 	max-width: none;
 	height: 200px;
-	-webkit-transition: opacity 1s, -webkit-transform 1s;
-	transition: opacity 1s, transform 1s;
+	-webkit-transition: opacity 0.7s, -webkit-transform 1s;
+	transition: opacity 0.7s, transform 1s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -120,7 +120,7 @@ figure.effect-julia p {
 	color: #2f3238;
 	text-transform: none;
 	font-weight: 350;
-	font-size: 75%;
+	font-size: 90%;
 	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
 	transition: opacity 0.35s, transform 0.35s;
 	-webkit-transform: translate3d(-300px,0,0);
@@ -158,7 +158,7 @@ figure.effect-julia:hover p:nth-of-type(3) {
 }
 
 figure.effect-julia:hover img {
-	opacity: 0.4;
+	opacity: 0.3;
 	-webkit-transform: scale3d(1.1,1.1,1);
 	transform: scale3d(1.1,1.1,1);
 }
