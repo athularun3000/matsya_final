@@ -18,25 +18,28 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     
     <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    
     <script>
       $(function(){
         $("#header").load("header.html"); 
       });
-      
-      $(document).ready(function(){
+    </script>
+    
+    <script>
+       $(document).ready(function(){
         $('.collapsible').collapsible({
           accordion : false // A setting that changes the collapsible behavior to expandable instead of the default accordion style
         });
       });
-      
-    </script> 
+    </script>
+    
  </head>
   <body>
     <div id="header"></div>
     
     <h1 align="center">Sub Divisions</h1>
     
-     <ul class="collapsible popout" data-collapsible="accordion">
+    <ul class="collapsible" data-collapsible="accordion">
       <li>
         <div class="collapsible-header"><i class="material-icons">settings_input_hdmi</i>Electrical</div>
         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
@@ -49,7 +52,7 @@
         <div class="collapsible-header"><i class="material-icons">language</i>Software</div>
         <div class="collapsible-body"><p>Lorem ipsum dolor sit amet.</p></div>
       </li>
-  </ul>
+    </ul>
   
   </body>
 </html>
