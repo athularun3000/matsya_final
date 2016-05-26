@@ -91,7 +91,7 @@
 /*---------------*/
 
 figure.effect-julia {
-	background: #2f3238;
+	background: #ffffff;
 }
 
 figure.effect-julia img {
@@ -116,7 +116,7 @@ figure.effect-julia p {
 	display: inline-block;
 	margin: 0 0 0.125em;
 	padding: 0.2em .5em;
-	background: rgba(255,255,255,1);
+	background: rgba(255,255,255,0.9);
 	color: #2f3238;
 	text-transform: none;
 	font-weight: 350;
