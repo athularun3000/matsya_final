@@ -3,7 +3,7 @@
 	clear: both;
 	margin: 0 auto;
 	padding: 1em 0 4em;
-	max-width: 1040px;
+	max-width: 1000px;
 	list-style: none;
 	text-align: center;
 }
@@ -13,7 +13,7 @@
 	position: relative;
 	float: left;
 	overflow: hidden;
-	margin: 10px;
+	margin: 5px 0.5%;
 	min-width: 180px;
 	max-width: 240px;
 	max-height: 180px;
