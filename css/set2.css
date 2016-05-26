@@ -97,8 +97,8 @@ figure.effect-julia {
 figure.effect-julia img {
 	max-width: none;
 	height: 200px;
-	-webkit-transition: opacity 0.5s, -webkit-transform 1s;
-	transition: opacity 0.5s, transform 1s;
+	-webkit-transition: opacity 0.1s, -webkit-transform 1s;
+	transition: opacity 0.1s, transform 1s;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
